@@ -1,5 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .PublishDate.Format "January 2, 2006" }}
+date: {{ .Date }}
+line1: ""
+line2: ""
+line3: ""
 draft: true
 ---
