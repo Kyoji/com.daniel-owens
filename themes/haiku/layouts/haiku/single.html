@@ -1,7 +1,9 @@
 {{ define "main" }}
-<section class="haiku">
+<section id="haiku">
         <p>{{ .Param "line1" }}</p>
         <p>{{ .Param "line2" }}</p>
+        <p>{{ .Param "line3" }}</p>
+        <div id-"haiku-date">{{ .Date.Format "January 2, 2006" }}</siv>
 </section>
 {{ end }}
 

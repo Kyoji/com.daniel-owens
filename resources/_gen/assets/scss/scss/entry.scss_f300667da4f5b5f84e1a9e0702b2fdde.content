@@ -1,0 +1,30 @@
+body {
+  background: #a5a5a5;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0; }
+
+#header {
+  display: flex;
+  height: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  font-weight: bold;
+  font-style: italic; }
+  #header #header-menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    justify-content: space-evenly; }
+    #header #header-menu .header-menu-entry {
+      margin-right: 1rem; }
+      #header #header-menu .header-menu-entry:last-child {
+        margin-right: 0; }
+
+#haiku {
+  display: flex;
+  margin: 1rem;
+  border-radius: 1rem;
+  background: palegoldenrod; }
